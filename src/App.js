@@ -35,7 +35,7 @@ const App = () => {
 
   return (
     <div className="bg-slate-800 min-h-screen p-4">
-      <h1 className="text-3xl font-bold text-center text-white mb-8">Wyszukiwarka Obrazów Flickr</h1>
+      <h1 className="text-3xl font-bold text-center text-white mb-8">Wyszukiwarka Obrazów</h1>
       <div className="flex justify-center mb-8">
         <button className="bg-white hover:bg-gray-200 text-black font-bold py-2 px-4 mx-2 rounded" onClick={() => searchImages('animals')}>Zwierzęta</button>
         <button className="bg-white hover:bg-gray-200 text-black font-bold py-2 px-4 mx-2 rounded" onClick={() => searchImages('landscapes')}>Krajobrazy</button>
